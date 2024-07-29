@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Sfondo circolare -->
+  <circle cx="50" cy="50" r="48" fill="#ffffff" />
+  
+  <!-- Laptop -->
+  <rect x="25" y="45" width="50" height="30" rx="2" fill="#4a90e2" />
+  <rect x="25" y="72" width="50" height="3" rx="1" fill="#2c3e50" />
+  
+  <!-- Schermo del laptop -->
+  <rect x="28" y="48" width="44" height="24" fill="#ffffff" />
+  
+  <!-- Icona casa -->
+  <path d="M50 20 L35 35 L37 35 L37 50 L47 50 L47 40 L53 40 L53 50 L63 50 L63 35 L65 35 Z" fill="#2ecc71" />
+  
+  <!-- Onda Wi-Fi -->
+  <path d="M41 60 Q50 52 59 60" stroke="#3498db" stroke-width="2" fill="none" />
+  <path d="M44 64 Q50 58 56 64" stroke="#3498db" stroke-width="2" fill="none" />
+</svg>

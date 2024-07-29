@@ -1,0 +1,402 @@
+@media (max-width: 504px) {
+
+  main {
+
+    .hero {
+
+      .hero-text {
+
+        h2 {
+          font-size: 1.7rem;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media (min-width: 344px) and (max-width: 503px) {
+
+  main {
+
+    .hero {
+
+      .hero-text {
+
+        h1 {
+          font-size: 1.8rem;
+        }
+
+        h2 {
+          font-size: 1.21rem;
+        }
+
+      }
+
+    }
+
+    .about,
+    .skills,
+    .projects,
+    .contact {
+
+      h2 {
+        font-size: 1.7rem
+        ;
+      }
+
+    }
+
+  }
+
+  footer {
+
+    .container {
+
+      p {
+        font-size: 0.9rem;
+      }
+
+    }
+
+  }
+
+}
+
+@media (max-width: 581px) {
+
+  main {
+
+    .hero,
+    .about,
+    .skills,
+    .projects,
+    .contact {
+
+      .about-line,
+      .skills-line,
+      .projects-line,
+      .contacts-line {
+        margin-bottom: 2rem;
+      }
+
+    }
+
+    .about {
+      text-align: center;
+
+      .about-paragraphs {
+
+        .paragraph-container {
+
+          .second-paragraph,
+          .fourth-paragraph {
+            text-align: center;
+          }
+
+          svg {
+            display: none;
+          }
+
+        }
+
+      }
+    }
+
+    .skills {
+
+      .skills-header {
+        justify-content: center;
+        align-items: baseline;
+
+        .legenda-title {
+          display: none;
+        }
+
+        .legenda-text {
+          font-size: 0.9rem;
+
+          margin-left: 5px;
+
+          cursor: pointer;
+        }
+
+      }
+
+      .skills-list {
+        display: flex;
+        justify-content: center;
+      }
+
+
+    }
+
+    .projects {
+      text-align: center;
+
+      .projects-list {
+        display: flex;
+        justify-content: center;
+      }
+
+    }    
+
+  }
+
+  .arrow-up {
+    bottom: 115px;
+  }
+
+  footer {
+
+    .container {
+      flex-direction: column;
+      justify-content: center;
+
+      p {
+        margin-bottom: 0.4rem;
+      }
+
+    }
+
+  }
+
+}
+
+@media (min-width: 582px) {
+  
+  .legenda-text {
+    display: none;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+
+    .hero-text {
+      margin-top: 1rem;
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.8rem;
+      }
+
+    }
+
+    .profile-image {
+      width: 230px;
+    }
+
+  }
+
+}
+
+@media (min-width: 769px) and (max-width: 804px) {
+
+  .hero {
+
+    .hero-text {
+
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      h2 {
+        font-size: 1.4rem;
+      }
+
+    }
+
+    .hero-image {
+
+      .profile-image {
+        max-width: 230px;
+
+        margin-bottom: 0;
+      }
+
+    }
+
+  }
+
+}
+
+@media (max-width: 776px) {
+
+  header {
+
+    nav {
+
+      .first-menu {
+        display: none;
+      }
+
+    }
+
+  }
+
+}
+
+@media (min-width: 777px) {
+
+  .second-menu {
+    display: none;
+  }
+
+}
+
+@media (min-width: 805px) and (max-width: 854px) {
+
+  .hero {
+
+    .hero-text {
+
+      h1 {
+        font-size: 1.9rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+
+    }
+
+    .hero-image {
+
+      .profile-image {
+        max-width: 240px;
+
+        margin-bottom: 0;
+      }
+
+    }
+
+  }
+
+}
+
+@media (min-width: 855px) and (max-width: 904px) {
+
+  .hero {
+
+    .hero-text {
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.6rem;
+      }
+
+    }
+
+    .hero-image {
+
+      .profile-image {
+        max-width: 250px;
+
+        margin-bottom: 0;
+      }
+
+    }
+
+  }
+
+}
+
+@media (min-width: 905px) and (max-width: 954px) {
+
+  .hero {
+
+    .hero-text {
+
+      h1 {
+        font-size: 2.1rem;
+      }
+
+      h2 {
+        font-size: 1.7rem;
+      }
+
+    }
+
+    .hero-image {
+
+      .profile-image {
+        max-width: 260px;
+
+        margin-bottom: 0;
+      }
+
+    }
+
+  }
+
+}
+
+@media (min-width: 955px) and (max-width: 1004px) {
+
+  .hero {
+
+    .hero-text {
+
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      h2 {
+        font-size: 1.8rem;
+      }
+
+    }
+
+  }
+
+}
+
+@media (min-width: 1005px) and (max-width: 1054px) {
+
+  .hero {
+
+    .hero-text {
+
+      h1 {
+        font-size: 2.3rem;
+      }
+
+      h2 {
+        font-size: 1.9rem;
+      }
+
+    }
+
+  }
+
+}
+
+@media (max-width: 1230px) {
+
+  header,
+  .about h2, p,
+  .skills-header,
+  .skills-list,
+  .projects h2, ul, #github-link,
+  footer .container {
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }
+
+}

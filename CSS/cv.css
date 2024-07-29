@@ -1,0 +1,982 @@
+header {
+
+  nav {
+
+    .first-menu {
+
+      li {
+        font-size: 1.2rem;
+
+        button {
+          position: relative;
+
+          border: none;
+
+          background-color: var(--bg-color);
+
+          #no-effect {
+
+            svg {
+              width: 25px;
+            }
+
+            &::after {
+              content: none;
+            }
+            
+            &:hover::after {
+              transform: none;
+            }
+
+          }
+
+          span {
+            position: absolute;
+            top: 35px;
+            right: -70px;
+
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            box-shadow: 0 0 10px black;
+
+            white-space: nowrap;
+            padding: 0.5rem;
+            border-radius: 10px;
+
+            pointer-events: none;
+
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+          }
+
+          &:hover {
+
+            span {
+              opacity: 1;
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+.cv-section {
+  background-color: var(--lightblue-color);
+
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+
+  &:first-of-type {
+    margin-top: 2rem
+  }
+
+  h3 {
+    color: var(--text-color);
+  }
+
+}
+
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--thirdblue-color);
+
+  .profile-image {
+
+    max-width: 270px;
+
+    border-radius: 50%;
+
+    transition: transform 0.5s, box-shadow 0.5s;      
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px black;
+    }
+
+  }
+
+}
+
+#personal-info {
+
+  .personal-info-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .info-container {
+    flex: 1;
+
+    .name-container,
+    .address-container,
+    .birthday-date-container,
+    .nationality-container,
+    .driving-license-container,
+    .transfer-container,
+    .travel-container {
+      display: flex;
+
+      position: relative;
+
+      margin-bottom: 0.2rem;
+      padding: 0.5rem;
+
+      svg {
+        width: 30px;
+        margin-right: 5px;
+
+        color: var(--darkblue-color);
+      }
+  
+      .name-item {
+        display: block;
+        color: var(--text-color);
+        font-weight: 600;
+      }
+
+      .info-item {
+        color: var(--darkblue-color);
+      }
+
+      &::before,
+      &::after {
+        content: '';
+
+        position: absolute;
+        left: 50%;
+
+        width: 100%;
+        height: 2px;
+
+        background-color: var(--darkblue-color);
+
+        transform-origin: center;
+        transform: translateX(-50%) scaleX(0);
+        transition: transform 0.4s ease;
+      }
+
+      &::before {
+        top: 0;
+      }
+
+      &::after {
+        bottom: 0;
+      }
+
+      &:hover::before,
+      &:hover::after {
+        transform: translateX(-50%) scaleX(1);
+      }
+
+    }
+
+    .travel-container {
+      margin-bottom: 0
+    }
+
+    .name-container,
+    .transfer-container,
+    .travel-container {
+      white-space: nowrap;
+    }
+  
+  }
+
+  .social-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+
+    h3 {
+      font-weight: 600;
+    }
+
+    .social-links {   
+      display: flex;
+
+      a {
+        position: relative;
+
+        font-size: 1.5rem;
+        margin-right: 5px;
+        padding: 0;
+
+        &:last-of-type {
+          margin-right: 0;
+        }
+
+        i {
+          opacity: 1;
+          color: var(--darkblue-color);
+        }
+
+        img,
+        .email-icon {
+          position: absolute;
+          top: 5px;
+          left: 0;
+
+          opacity: 0;
+          width: 1.5rem;
+        }
+
+        &:hover {
+
+          i {
+            opacity: 0;
+          }
+
+          img,
+          .email-icon {
+            opacity: 1;
+          }
+
+        }
+
+        .email-icons-container {
+
+          .email-icon {
+            width: 1.47rem;
+
+            transition: none;
+          }
+
+        }
+
+        .linkedin-icons-container,
+        .instagram-icons-container,
+        .skype-icons-container {
+
+          img {
+            top: 6.5px;
+            width: 1.3rem;
+          }
+
+        }
+
+        .github-icons-container {
+
+          img {
+            top: 5px;
+            width: 1.46rem;
+
+            background-color: white;
+            border-radius: 50%;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+#work-experience {
+  background-color: var(--thirdblue-color);
+
+  .web-writer-title,
+  .deals-hunter-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--bg-color);
+    box-shadow: 0 0 10px black;
+    border-radius: 30px;
+
+    svg {
+      width: 25px;
+      margin-right: 5px;
+    }
+
+  }
+
+  .deals-hunter-title {
+    margin-top: 4rem;
+  }
+
+  .experiences-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    margin-top: 2rem;
+
+    .experience-item {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      
+      width: 500px;
+      height: 270px;
+      padding: 2rem;
+      border-radius: 15px;
+
+      background-color: var(--bg-color);
+      box-shadow: 0 0 10px black;
+
+      transition: all 0.3s ease;
+
+      &:hover {
+        animation: pulse 1s;
+      }
+
+      img,
+      svg {
+        display: block;
+        
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1rem;
+        width: 300px;
+      }
+
+      ul {
+        list-style-type: none;
+
+        li {
+          position: relative;
+          padding-left: 15px;
+
+          &::before {
+            content: ">";
+
+            position: absolute;
+            left: 0;
+            top: -4px;
+
+            font-size: 1.2rem;
+          }
+
+        }
+
+      }
+
+      span {
+        position: relative;
+        z-index: 1;
+
+        margin-top: 1rem;
+
+        text-align: center;
+      
+        &::before {
+          content: '';
+
+          position: absolute;
+          z-index: -1;
+          top: 0;
+          bottom: 0;
+          left: -0.25em;
+          right: -0.25em;
+
+          transform-origin: center right;
+          transform: scaleX(0);
+          transition: transform 0.2s ease-in-out;
+        }
+      
+        &:hover::before {
+          transform: scaleX(1);
+          transform-origin: center left;
+        }
+
+        a {
+          text-decoration: none;
+        }
+
+      }
+      
+
+    }
+
+    .aranzulla {
+      background-color: #057DB0;
+    }
+
+    .infomotori {
+
+      span::before {
+        background-color: #E31E26;
+      }
+
+    }
+
+    .motorionline,
+    .motorisumotori {
+
+      span::before {
+        background-color: #FF0000;
+      }
+
+    }
+
+    .saggiamente {
+
+      span::before {
+        background-color: #617FBB;
+      }
+
+    }
+
+    .mbenz {
+
+      span::before {
+        background-color: #03D32A;
+      }
+
+    }
+
+    .focustech {
+
+      span::before {
+        background-color: #00F0FE;
+      }
+
+    }
+
+    .infomotori,
+    .hdmotori,
+    .motorionline,
+    .motorisumotori,
+    .saggiamente,
+    .chimerarevo,
+    .guide-informatica,
+    .focustech,
+    .enjoyphoneblog,
+    .android-caotic,
+    .chimerarevo {
+      background-color: white;
+      color: black;
+
+      a {
+        color: black;
+      }
+
+    }
+
+    .clubalfa {
+      background-color: #DD2827;
+      color: white;
+
+      a {
+        color: white;
+      }
+
+      span {
+        
+        &::before {
+          background-color: white;
+        }
+
+        &:hover {
+
+          a {
+           color: #DD2926;
+          }
+
+        }
+
+      }
+
+    }
+
+    .autoblog,
+    .motoblog,
+    .mbenz {
+      background-color: black;
+      color: white;
+
+      a {
+        color: white;
+      }
+
+    }
+
+    .motori {
+      background-color: white;
+      color: #333333;
+
+      a {
+        color: #333333;
+      }
+
+    }
+
+    .chimerarevo {
+
+      img {
+        width: 150px;
+      }
+
+    }
+
+    .guide-informatica {
+
+      img {
+        width: 70px;
+        margin-top: 1rem;
+      }
+
+      ul {
+        margin: 0;
+      }
+
+      span {
+        margin: 0;
+
+        &::before {
+          background-color: #F9AF3C;
+        }
+
+      }
+
+    }
+
+    .enjoyphoneblog {
+
+      a {
+        text-decoration: none;
+
+        h1 {
+          font-family: sans-serif;
+          color: #92C138;
+          font-weight: 700;
+
+          text-align: center;
+        }
+
+      }
+
+      span::before {
+        background-color: #92C138;
+      }
+
+    }
+
+    .android-caotic {
+
+      img {
+        width: 75px;
+      }
+
+    }
+
+    .gizchina {
+      background-color: #232323;
+      color: white;
+
+      a {
+        color: white;
+      }
+
+      span::before {
+        background-color: #19AA82;
+      }
+
+    }
+
+  }
+
+}
+
+#education {
+  
+  .education-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    .education-item {
+      width: 550px;
+      height: 200px;
+      padding: 1rem;
+
+      background-color: var(--bg-color);
+      box-shadow: 0 0 10px black;
+
+      border-radius: 20px;
+
+      .icon-title-container {
+        display: flex;
+        align-items: center;
+
+        svg {
+          width: 30px;
+          margin-right: 5px;
+        }
+
+        h3 {
+          font-weight: 700;
+        }
+
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .icon-school-container {
+        display: flex;
+        align-items: center;
+
+        margin-top: 0.5rem;
+        padding: 0;
+
+        img {
+          width: 50px;
+          height: 50px;
+          margin-right: 5px;
+        }
+
+        .starttoimpactuniversity-logo {
+          margin-left: -6px;
+        }
+
+      }
+
+      p {
+        margin: 0.5rem 0 0 0;
+      }
+
+      &:hover {
+        box-shadow: 0 0 10px white;
+      }
+
+    }
+
+  }
+
+}
+
+#technical-skills {
+  background-color: var(--thirdblue-color);
+
+  .technical-skills-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .legenda-container {
+      position: relative;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      cursor: default;
+
+      .legenda-title {
+        color: var(--text-color);
+
+        font-size: 1rem;
+
+        cursor: pointer;
+      }
+
+      .skill-levels {
+        position: absolute;
+        top: 30px;
+        right: 0;
+        z-index: 100;
+
+        padding: 20px 35px;
+        border-radius: 5px;
+
+        white-space: nowrap;
+        pointer-events: none;
+
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+
+        box-shadow: 0 0 20px black;
+        background-color: var(--bg-color);
+
+        span {
+          font-weight: 600;
+        }
+
+        ul {
+          margin-top: 10px;
+        }
+
+      }
+
+      &:hover {
+
+        .skill-levels {
+          opacity: 1;
+        }
+        
+      }
+
+    }
+
+  }
+
+  .technical-skills-list {
+
+    .seo-skills-list,
+    .remote-working-skills-list,
+    .web-writing-skills-list,
+    .web-development-skills-list,
+    .professional-photo-editing-skills-list,
+    .social-media-marketing-skills-list,
+    .affiliate-marketing-skills-list,
+    .artificial-intelligence-skills-list {
+      margin-bottom: 2.5rem;
+
+      border: 5px dashed var(--darkblue-color);
+      box-shadow: 0 0 5px black;
+
+      padding: 1rem;
+
+      .skill-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .skill-icon-title {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+
+          svg {
+            width: 30px;
+            margin-right: 0.7rem;
+
+            color: var(--darkblue-color);
+          }
+
+          h3 {
+            font-weight: 700;
+          }
+
+        }
+
+        .skill-level-bar-full {
+          position: relative;
+
+          width: 150px;
+          height: 15px;
+          margin-left: 0.7rem;
+          border-radius: 10px;
+
+          background-color: var(--darkblue-color);
+
+          cursor: default;
+
+          .skill-level-bar {
+            position: absolute;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-size: 0.7rem;
+
+            height: 100%;
+
+            border-radius: 10px;
+            background-color: var(--lightblue-color);
+          }
+
+        }
+
+      }
+
+      ul {
+        list-style-position: inside;
+        list-style-type: square;
+
+        li {
+          font-size: 1.15rem;
+        
+          &::marker {
+            color: var(--darkblue-color);
+          }
+
+        }
+
+      }
+
+    }
+
+    .seo-skills-list {
+
+      .skill-level-bar {
+        width: 55%;
+      }
+
+    }
+
+    .remote-working-skills-list {
+
+      .skill-level-bar {
+        width: 90%;
+      }
+
+    }
+
+    .web-writing-skills-list {
+
+      .skill-level-bar {
+        width: 80%;
+      }
+
+    }
+
+    .web-development-skills-list {
+
+      .skill-level-bar {
+        width: 40%;
+      }
+
+    }
+
+    .professional-photo-editing-skills-list {
+
+      .skill-level-bar {
+        width: 25%;
+      }
+
+    }
+
+    .social-media-marketing-skills-list,
+    .affiliate-marketing-skills-list {
+
+      .skill-level-bar {
+        width: 20%;
+      }
+
+    }
+
+    .artificial-intelligence-skills-list {
+      margin-bottom: 0;
+
+      .skill-level-bar {
+        width: 35%;
+      }
+
+    }
+
+  }
+
+}
+
+#languages {
+
+  ul {
+
+    li {
+      font-size: 1.2rem;
+
+      &::marker {
+        color: var(--darkblue-color);
+      }
+
+    }
+
+  }
+
+}
+
+#certifications {
+  background-color: var(--thirdblue-color);
+
+  .certifications-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    .certification-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      width: 500px;
+      padding: 1rem;
+      border-radius: 20px;
+
+      background-color: var(--bg-color);
+      box-shadow: 0 0 10px black;
+
+      .icon-title-certification {
+        display: flex;
+        align-items: center;
+
+        h3 {
+          font-weight: 700;
+        }
+
+        svg {
+          width: 30px;
+          margin-right: 0.5rem;
+        }
+
+      }
+
+      ul {
+        list-style-type: none;
+        text-align: center;
+
+        padding: 0;
+        font-size: 1.10rem;        
+      }
+
+      &:hover {
+        box-shadow: 0 0 10px white;
+      }
+
+    }
+
+  }
+
+}
+
+footer {
+
+  .container {
+    justify-content: center !important;
+  }
+
+}
+
+@keyframes pulse {
+
+  0% {
+      transform: scale(1);
+      box-shadow: 0 0 10px black;
+  }
+
+  50% {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px black;
+  }
+
+  100% {
+      transform: scale(1);
+      box-shadow: 0 0 10px black;
+  }
+
+}

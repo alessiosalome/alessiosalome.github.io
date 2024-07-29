@@ -1,0 +1,685 @@
+@media (min-width: 0) {
+  
+  .legenda-text {
+    display: none;
+  }
+
+}
+
+@media (min-width: 344px) and (max-width: 499px) {
+
+  main {
+
+    #hero {
+
+      .profile-image {
+        max-width: 200px;
+      }
+
+    }
+
+    #personal-info {
+
+      h2 {
+        font-size: 1.37rem;
+      }
+
+      .personal-info-container {
+        flex-direction: column;
+
+        .info-container {
+          margin-bottom: 1.5rem;
+        }
+
+        .social-container {
+
+          .social-links {
+            flex-direction: row;
+          }
+
+        }
+
+      }
+
+    }
+
+    #work-experience {
+
+      h2 {
+        font-size: 1.37rem;
+      }
+
+      .web-writer-title,
+      .deals-hunter-title {
+
+        h3 {
+          font-size: 1.2rem;
+        }
+
+      }
+
+      .experiences-container {
+
+        .experience-item {
+          width: 320px;
+
+          img,
+          svg {
+            width: 200px;
+            margin-bottom: 0.5rem;
+          }
+
+          span {
+            font-size: 0.8rem;
+            margin-top: 0.2rem;
+          }
+
+          ul {
+            font-size: 0.85rem;
+          }
+
+        }
+
+        .chimerarevo {
+
+          img {
+            width: 120px;
+          }
+
+        }
+
+        .enjoyphoneblog {
+
+          a {
+
+            h1 {
+              font-size: 1.18rem;
+            }
+
+          }
+
+        }
+
+        .guide-informatica {
+
+          img {
+            width: 60px;
+          }
+
+        }
+        .android-caotic {
+
+          img {
+            width: 70px;
+          }
+        }
+
+      }
+
+    }
+
+    #education {
+
+      h2 {
+        font-size: 1.37rem;
+      }
+
+      .education-container {
+
+        .education-item {
+
+          .icon-title-container {
+
+            h3 {
+              font-size: 1rem;
+            }
+
+          }
+
+          .icon-school-container {
+
+            h4 {
+              font-size: 0.9rem;
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+    #technical-skills {    
+
+      .technical-skills-header {
+        flex-direction: column;
+        margin-bottom: 1rem;
+
+        h2 {
+          font-size: 1.37rem;
+          margin: 0;
+        }
+
+      }
+
+      .technical-skills-list {
+
+        .seo-skills-list,
+        .remote-working-skills-list,
+        .web-writing-skills-list,
+        .web-development-skills-list,
+        .professional-photo-editing-skills-list,
+        .social-media-marketing-skills-list,
+        .affiliate-marketing-skills-list,
+        .artificial-intelligence-skills-list {
+
+          .skill-header {
+
+            .skill-icon-title {
+
+              h3 {
+                font-size: 1.15rem;
+              }
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+    #languages {
+
+      h2 {
+        font-size: 1.37rem;
+      }
+
+    }
+
+    #certifications {
+
+      h2 {
+        font-size: 1.37rem;
+      }
+
+      .certifications-container {
+
+        .certification-item {
+
+          .icon-title-certification {
+
+            h3 {
+              font-size: 1.2rem;
+            }
+
+          }
+
+          ul {
+            font-size: 1rem;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+  .arrow-up {
+    width: 20px;
+  }
+
+  footer {
+
+    .container {
+
+      p {
+        font-size: 0.95rem;
+      }
+
+    }
+
+  }
+
+}
+
+@media (min-width: 390px) and (max-width: 499px) {
+
+  main {
+
+    #work-experience {
+
+      .experiences-container {
+
+        .guide-informatica,
+        .android-caotic {
+
+          img {
+            width: 70px;
+          }
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media (max-width: 506px) {
+
+  #work-experience {
+
+    .experiences-container {
+
+      .android-caotic {
+
+        img {
+          width: 55px;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media (max-width: 513px) {
+
+  #work-experience {
+
+    .experiences-container {
+
+      .guide-informatica {
+
+        img {
+          width: 55px;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media (max-width: 524px) {
+
+  #work-experience {
+
+    .experiences-container {
+
+      .saggiamente {
+
+        img {
+          width: 230px;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media (max-width: 529px) {
+
+  #work-experience {
+
+    .experiences-container {
+
+      .enjoyphoneblog {
+
+        h1 {
+          font-size: 2rem;
+        }
+
+      }
+
+    }
+
+  }
+  
+}
+
+@media (max-width: 548px) {
+
+  #education {
+
+    .education-container {
+
+      .education-item {
+
+        .icon-title-container {
+
+          svg {
+            width: 20px;
+          }
+          
+          h3 {
+            font-size: 1.1rem;
+          }
+
+        }
+
+        .icon-school-container {
+
+          img {
+            width: 30px;
+            height: 30px;
+          }
+
+          h4 {
+            font-size: 1rem;
+          }
+
+        }
+        
+      }
+
+    }
+
+  }
+
+}
+
+@media (min-width: 549px) and (max-width: 582px) {
+
+  #education {
+
+    .education-container {
+
+      .education-item {
+
+        .icon-title-container {
+
+          svg {
+            width: 20px;
+          }
+          
+          h3 {
+            font-size: 1.3rem;
+          }
+
+        }
+
+        .icon-school-container {
+
+          img {
+            width: 35px;
+            height: 35px;
+          }
+
+          h4 {
+            font-size: 1.2rem;
+          }
+
+        }
+        
+      }
+
+    }
+
+  }
+
+}
+
+@media (max-width: 559px) {
+
+  .cv-section {
+
+    h2 {
+      text-align: center;
+    }
+
+  }
+
+}
+
+@media (max-width: 580px) {
+
+  #certifications {
+
+    .certifications-container {
+
+      .certification-item {
+
+        .icon-title-certification {
+
+          svg {
+            width: 22px;
+          }
+
+          h3 {
+            font-size: 1.3rem;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media (min-width: 583px) and (max-width: 648px) {
+
+  #education {
+
+    .education-container {
+
+      .education-item {
+
+        .icon-title-container {
+
+          svg {
+            width: 25px;
+          }
+          
+          h3 {
+            font-size: 1.4rem;
+          }
+
+        }
+
+        .icon-school-container {
+
+          img {
+            width: 40px;
+            height: 40px;
+          }
+
+          h4 {
+            font-size: 1.3rem;
+          }
+
+        }
+        
+      }
+
+    }
+
+  }
+
+}
+
+@media (max-width: 618px) {
+
+  #personal-info {
+
+    .social-container {
+
+      .social-links {
+        flex-direction: column;
+      }
+
+    }
+
+  }
+
+}
+
+@media (max-width: 637px) {
+
+  #technical-skills {
+
+    .technical-skills-list {
+
+      .seo-skills-list,
+      .remote-working-skills-list,
+      .web-writing-skills-list,
+      .web-development-skills-list,
+      .professional-photo-editing-skills-list,
+      .social-media-marketing-skills-list,
+      .affiliate-marketing-skills-list,
+      .artificial-intelligence-skills-list {
+
+        .skill-header {
+          flex-direction: column;
+          align-items: center;
+
+          margin-bottom: 1rem;
+
+          .skill-icon-title {
+
+            svg {
+              width: 25px;
+            }
+          
+            h3 {
+              font-size: 1.4rem;
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media (max-width: 770px) {
+
+  .cv-section {
+
+    h2 {
+      font-size: 1.7rem;
+    }
+
+  }
+
+}
+
+@media (max-width: 1230px) {
+
+  header {
+
+    nav {
+
+      .first-menu {
+        display: none;
+      }
+
+      .second-menu {
+
+        ul {
+          width: 240px;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media (min-width: 1231px) {
+
+  header {
+
+    nav {
+
+      .second-menu {
+        display: none;
+      }
+
+    }
+
+  }
+
+}
+
+@media (max-width: 1237px) {
+
+  header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .cv-section {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+}
+
+@media (min-width: 1314px) and (max-width: 1380px) {
+
+  .arrow-up {
+    bottom: 45px;
+  }
+
+}
+
+@media (max-width: 1313px) {
+
+  .arrow-up {
+    right: 10px;
+    bottom: 45px;
+  }
+
+}
+
+@media (min-width: 1231px) and (max-width: 1365px) {
+
+  header {
+
+    nav {
+
+      .first-menu {
+
+        li {
+
+          button {
+
+            span {
+              right: 0;
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+  }
+
+}

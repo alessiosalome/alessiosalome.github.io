@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Sfondo circolare -->
+  <circle cx="50" cy="50" r="48" fill="#ffffff" />
+  
+  <!-- Cornice rettangolare per l'istogramma -->
+  <rect x="20" y="25" width="60" height="50" fill="none" stroke="#343a40" stroke-width="2" />
+  
+  <!-- Istogramma stilizzato -->
+  <path d="M20 75 L20 65 L27 65 L27 55 L34 55 L34 40 L41 40 L41 50 L48 50 L48 30 
+           L55 30 L55 45 L62 45 L62 60 L69 60 L69 70 L76 70 L76 75 Z" 
+        fill="#007bff" fill-opacity="0.7" />
+  
+  <!-- Linea di regolazione -->
+  <line x1="20" y1="25" x2="80" y2="75" stroke="#dc3545" stroke-width="2" stroke-dasharray="4" />
+  
+  <!-- Punti di controllo -->
+  <circle cx="20" cy="25" r="3" fill="#28a745" />
+  <circle cx="80" cy="75" r="3" fill="#28a745" />
+</svg>

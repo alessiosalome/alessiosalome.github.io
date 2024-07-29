@@ -1,0 +1,103 @@
+footer {
+  background-color: var(--lightblue-color);
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0.5rem 0;
+
+    p {
+      color: var(--white);
+
+      font-weight: 600;
+      font-size: 1.1rem;
+      padding: 0;
+    }
+
+    .social-links {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      a {
+        position: relative;
+
+        font-size: 1.5rem;
+        margin-right: 5px;
+        padding: 0;
+
+        color: var(--darkblue-color);
+
+        &:last-of-type {
+          margin-right: 0;
+        }
+
+        i {
+          opacity: 1;
+        }
+
+        img,
+        .email-icon {
+          position: absolute;
+          top: 5px;
+          left: 0;
+
+          opacity: 0;
+          width: 1.5rem;
+        }
+
+        &:hover {
+
+          i {
+            opacity: 0;
+          }
+
+          img,
+          .email-icon {
+            opacity: 1;
+          }
+
+        }
+
+        .email-icons-container {
+
+          .email-icon {
+            width: 1.47rem;
+
+            transition: none;
+          }
+
+        }
+
+        .linkedin-icons-container,
+        .instagram-icons-container,
+        .skype-icons-container {
+
+          img {
+            top: 6.5px;
+            width: 1.3rem;
+          }
+
+        }
+
+        .github-icons-container {
+
+          img {
+            top: 5px;
+            width: 1.46rem;
+
+            background-color: white;
+            border-radius: 50%;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}

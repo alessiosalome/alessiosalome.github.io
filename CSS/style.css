@@ -1,0 +1,131 @@
+:root {
+  --primary-color: #125475;
+  --secondary-color: white;
+  --button-color: #72C7F1;
+  --icon-color: #72C7F1;
+  --lightblue-color: #72C7F1;
+  --thirdblue-color: #4192d9;
+  --text-color: white;
+  --title-color: #b6daeb;
+  --bg-color: #1e293b;
+  --darkblue-color: #1e293b;
+  
+  --body-font: "Quattrocento", serif;
+  --menu-font: "Rokkitt", serif;
+  --logo-font: "Metamorphous", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+
+  font-family: var(--body-font);
+  font-size: 16px;
+  line-height: 1.6;
+
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.lazy-item {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+@keyframes lazyLoad {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.lazy-container .lazy-item:nth-child(1) { 
+  animation: lazyLoad 0.5s ease forwards 0.1s; 
+}
+
+.lazy-container .lazy-item:nth-child(2) { 
+  animation: lazyLoad 0.5s ease forwards 0.2s; 
+}
+
+.lazy-container .lazy-item:nth-child(3) { 
+  animation: lazyLoad 0.5s ease forwards 0.3s; 
+}
+
+.lazy-container .lazy-item:nth-child(4) { 
+  animation: lazyLoad 0.5s ease forwards 0.4s; 
+}
+
+.lazy-container .lazy-item:nth-child(5) { 
+  animation: lazyLoad 0.5s ease forwards 0.5s; 
+}
+
+.lazy-container .lazy-item:nth-child(6) { 
+  animation: lazyLoad 0.5s ease forwards 0.6s; 
+}
+
+.lazy-container .lazy-item:nth-child(7) { 
+  animation: lazyLoad 0.5s ease forwards 0.7s; 
+}
+
+.lazy-container .lazy-item:nth-child(8) { 
+  animation: lazyLoad 0.5s ease forwards 0.8s; 
+}
+
+.lazy-container .lazy-item:nth-child(9) { 
+  animation: lazyLoad 0.5s ease forwards 0.9s; 
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+button {
+  font-family: var(--body-font);
+}
+
+.arrow-up {
+  position: absolute;
+  right: 50px;
+  bottom: 80px;
+  
+  width: 30px;
+  border-radius: 50%;
+
+  background-color: var(--secondary-color);
+
+  transition: opacity 0.5s ease-in-out;
+
+  &:hover {
+    opacity: 0.9;
+  }
+  
+}
