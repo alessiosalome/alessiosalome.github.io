@@ -8,15 +8,12 @@ Welcome to the repository of my website/portfolio. This project was created to s
 2. [Technologies Used](#technologies-used)
 3. [Directory Structure](#directory-structure)
 4. [Featured Projects](#featured-projects)
-5. [Testimonials](#testimonials)
-6. [Blog](#blog)
-7. [Roadmap](#roadmap)
-8. [Acknowledgements](#acknowledgements)
-9. [Installation](#installation)
-10. [Usage](#usage)
-11. [Contributing](#contributing)
-12. [Contact](#contact)
-13. [License](#license)
+5. [Acknowledgements](#acknowledgements)
+6. [Installation](#installation)
+7. [Usage](#usage)
+8. [Contributing](#contributing)
+9. [Contact](#contact)
+10. [License](#license)
 
 ## Project Description
 
@@ -26,7 +23,7 @@ This website/portfolio was developed to showcase my work and skills in web devel
 
 - HTML5
 - CSS3
-- JavaScript (ES6+)
+- JavaScript
 
 ## Directory Structure
 
@@ -46,12 +43,13 @@ The project's directory structure is as follows:
 │   ├── media-queries-cv.css
 │   ├── media-queries-index.css
 │   └── style.css
-├── cv
-│   └── index.html
 ├── JS
 │   └── script.emailjs.js
-├── index.html
-└── README.md
+├── cv
+│   └── index.html
+├── LICENSE
+├── README.md
+└── index.html
 ```
 
 ## Featured Projects
