@@ -1,4 +1,4 @@
-Alessio Salome - My Personal Web Site/Portfolio
+# Alessio Salome - My Personal Web Site/Portfolio
 
 Welcome to the repository of my website/portfolio. This project was created to showcase my skills, my projects, and provide a professional contact.
 
@@ -87,10 +87,10 @@ Contributions are welcome! Feel free to open an [issue](https://github.com/aless
 
 ## Contact
 
-- **Email**: [alessio.salome@gmail.com](mailto:alessio.salome@gmail.com)
-- **LinkedIn**: [Alessio Salome](https://www.linkedin.com/in/alessiosalome/)
-- **Facebook**: [Alessio Salome](https://www.facebook.com/alessio.salome)
-- **Telegram**: [@alessiohitech] (https://t.me/alessiohitech)
+- **Email** (mailto:alessio.salome@gmail.com)
+- **LinkedIn** (https://www.linkedin.com/in/alessiosalome/)
+- **Facebook** (https://www.facebook.com/alessio.salome)
+- **Telegram** (https://t.me/alessiohitech)
 
 ## License
 
