@@ -38,6 +38,10 @@
     <link rel="stylesheet" href="/CSS/footer.css">
     <link rel="stylesheet" href="/CSS/media-queries-index.css">
 
+    <!-- Link script EmailJS-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="/JS/script-emailjs.js"></script>
+
 </head>
 
 <body class="lazy-container">
@@ -544,33 +548,6 @@
     </div>
 
   </footer>
-
-  <!-- Script per EmailJS -->
-  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-
-  <script>
-    (function() {
-    emailjs.init("y9tGOqEi4C9vJ0Bt5");
-    })();
-
-    document.addEventListener('DOMContentLoaded', function() {
-        const form = document.querySelector('#contact form');
-        
-        form.addEventListener('submit', function(event) {
-            event.preventDefault();
-            
-            emailjs.sendForm('service_2al1oih', 'template_gasclsl', this)
-                .then(function() {
-                    console.log('Email inviata con successo!');
-                    alert('Messaggio inviato con successo!');
-                    form.reset();
-                }, function(error) {
-                    console.log('Errore nell\'invio dell\'email:', error);
-                    alert('Si è verificato un errore. Per favore, riprova più tardi.');
-                });
-        });
-    });
-  </script>
 
 </body>
 </html>
