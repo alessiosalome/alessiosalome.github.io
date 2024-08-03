@@ -44,7 +44,7 @@ The project's directory structure is as follows:
 │   ├── media-queries-index.css
 │   └── style.css
 ├── JS
-│   └── script.emailjs.js
+│   └── script-emailjs.js
 ├── cv
 │   └── index.html
 ├── LICENSE
