@@ -1,7 +1,7 @@
-@media (max-width: 412px) {
+@media (max-width: 430px) {
 
   main {
-    max-width: 412px;
+    max-width: 430px;
     
     border-right: none;
 
@@ -26,7 +26,7 @@
 
 }
 
-@media (min-width: 413px) {
+@media (min-width: 431px) {
 
   main {
 
