@@ -44,7 +44,7 @@ The project's directory structure is as follows:
 │   ├── media-queries-index.css
 │   └── style.css
 ├── JS
-│   └── script.emailjs.js
+│   └── script-emailjs.js
 ├── cv
 │   └── index.html
 ├── LICENSE
@@ -87,7 +87,7 @@ Contributions are welcome! Feel free to open an [issue](https://github.com/aless
 
 ## Contact
 
-- **Email**: [alessio.salome@gmail.com](mailto:alessio.salome@gmail.com)
+- **Email**: [alessio.salome93@gmail.com](mailto:alessio.salome93@gmail.com)
 - **LinkedIn**: https://www.linkedin.com/in/alessiosalome/
 - **Facebook**: https://www.facebook.com/alessio.salome
 - **Telegram**: https://t.me/alessiohitech
