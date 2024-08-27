@@ -463,6 +463,12 @@
         opacity: 0;
       }
 
+      a {
+        text-decoration: none;
+
+        color: var(--secondary-color);
+      }
+
     }
 
   }
