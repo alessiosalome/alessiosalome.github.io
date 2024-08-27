@@ -45,6 +45,8 @@ The project's directory structure is as follows:
 │   └── style.css
 ├── JS
 │   └── script-emailjs.js
+├── Projects
+│   └── X-Home-Page-Clone
 ├── cv
 │   └── index.html
 ├── LICENSE
@@ -54,7 +56,11 @@ The project's directory structure is as follows:
 
 ## Featured Projects
 
-### Work in progress...
+### X (formerly Twitter) Home Page Clone
+
+This project is a clone of the home page of X (formerly known as Twitter), created exclusively using HTML and CSS. The objective of this project was to replicate the design and layout of the X home page, focusing on the visual elements and structure without any JavaScript or backend functionality. It serves as a demonstration of my skills in front-end development, particularly in crafting responsive and visually accurate web pages using only HTML and CSS.
+
+You can view the project [here](https://alessiosalome.github.io/Projects/X-Home-Page-Clone/).
 
 ## Acknowledgements
 
