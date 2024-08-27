@@ -1,0 +1,47 @@
+:root {
+  --bg-color: #000000;
+  --primary-color: #E6E9EA;
+  --secondary-color: #71767A;
+  --third-color: #1C9BEF;
+  --fourth-color: #0E141A;
+  --button-color: #209BF0;
+  --follow-button: #EFF3F4;
+  --first-icon-color: #1C9BEF;
+  --second-icon-color: #E6E9EA;
+  --third-icon-color: #71767A;
+  --icon-bg-color: #181919;
+  --second-icon-bg-color: #0D1720;
+  --search-bg-color: #202327;
+  --second-bg-color: #080808;
+  --third-bg-color: #495968;
+  --fourth-bg-color: #16181C;
+  --border-color: rgba(211, 211, 211, 0.245);
+
+  --text-size: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;  
+  
+  font-family: "Atkinson Hyperlegible", sans-serif;
+
+  color: var(--primary-color);
+  background-color: var(--bg-color);
+}
+
+.container {
+  max-width: 1245px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}

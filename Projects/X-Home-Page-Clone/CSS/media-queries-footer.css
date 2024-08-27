@@ -1,0 +1,59 @@
+@media (max-width: 412px) {
+
+  footer {
+
+    .footer-one {
+      display: none;
+    }
+
+  }
+
+}
+
+@media (min-width: 413px) {
+
+  footer {
+
+    .footer-two {
+      display: none;
+    }
+
+  }
+  
+}
+
+@media (max-width: 1092px) {
+
+  footer {
+  
+    .footer-one {
+      display: none;
+    }
+
+  }
+
+}
+
+@media (min-width: 1093px) and (max-width: 1178px) {
+
+  footer {
+  
+    .footer-one {
+      width: 350px;
+    }
+
+  }
+
+}
+
+@media (min-width: 1295px) and (max-width: 1365px) {
+
+  footer {
+  
+    .footer-one {
+      width: 350px;
+    }
+
+  }
+
+}

@@ -1,0 +1,333 @@
+@media (max-width: 412px) {
+
+  main {
+    max-width: 412px;
+    
+    border-right: none;
+
+    overflow-x: hidden;
+
+    position: relative;
+
+    header {
+      align-items: center;
+
+      #home {
+        display: none;
+      }
+
+    }
+
+    .new-post {
+      display: none;
+    }
+
+  }
+
+}
+
+@media (min-width: 413px) {
+
+  main {
+
+    .sidebar-left-two,
+    .new-message-button {
+      display: none;
+    }
+
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  main {
+    width: 430px;
+
+    header {
+
+      .for-you-followers {
+
+        .for-you,
+        .followers {
+          width: 209px;
+        }
+
+      }
+
+    }
+    
+  }
+
+}
+
+@media (min-width: 500px) {
+
+  main {
+
+    header {
+
+      .x-icon {
+        display: none;
+      }
+
+    }
+
+  }
+
+}
+
+@media (min-width: 501px) and (max-width: 530px) {
+
+  main {
+    width: 440px;
+
+    header {
+
+      .for-you-followers {
+
+        .for-you,
+        .followers {
+          width: 220px;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media (min-width: 531px) and (max-width: 550px) {
+
+  main {
+    width: 450px;
+
+    header {
+
+      .for-you-followers {
+
+        .for-you,
+        .followers {
+          width: 225px;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media (max-width: 514px) {
+
+  main {
+
+    header {
+      padding-top: 0.7rem;
+
+      .for-you-followers {
+        margin-top: 0.7rem;
+      }
+
+    }
+
+  }
+
+}
+
+@media (min-width: 515px) {
+
+  main {
+
+    header {
+
+      #home {
+        display: none;
+      }
+
+    }
+
+  }
+
+}
+
+@media (min-width: 551px) and (max-width: 580px) {
+
+  main {
+
+    header {
+
+      .for-you-followers {
+
+        .for-you,
+        .followers {
+          width: 227.50px;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media (min-width: 581px) and (max-width: 630px) {
+
+  main {
+
+    header {
+
+      .for-you-followers {
+
+        .for-you,
+        .followers {
+          width: 235px;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media (min-width: 631px) and (max-width: 640px) {
+
+  main {
+
+    header {
+
+      .for-you-followers {
+
+        .for-you,
+        .followers {
+          width: 240px;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media (min-width: 641px) and (max-width: 650px) {
+
+  main {
+
+    header {
+
+      .for-you-followers {
+
+        .for-you,
+        .followers {
+          width: 245px;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media (min-width: 651px) and (max-width: 679px) {
+
+  main {
+
+    header {
+
+      .for-you-followers {
+
+        .for-you,
+        .followers {
+          width: 250px;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media (min-width: 680px) {
+
+  main {
+
+    .posts {
+
+      .post1,
+      .post2,
+      .post3 {
+
+        .image-name-username-icons-date-text-options {
+
+          .name-username-icons-date-text-options {
+
+            .name-username-icons-date-options {
+              margin-right: -30px;
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+    
+  }
+  
+}
+
+@media (max-width: 697px) {
+
+  main {
+
+    .posts {
+
+      .post1,
+      .post2,
+      .post3 {
+        padding: 0.3rem 0.7rem 1rem 1rem;
+      }
+
+    }
+
+  }
+
+}
+
+@media (max-width: 717px) {
+
+  main {
+
+    .new-post {
+
+      .icons-button {
+
+        .icons {
+
+          .survey,
+          .program {
+            display: none;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+  
+}

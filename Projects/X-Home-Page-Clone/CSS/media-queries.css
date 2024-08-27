@@ -1,0 +1,25 @@
+@media (max-width: 412px) {
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+@media (max-width: 520px) {
+  
+  html {
+    overflow-x: hidden;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1180px) {
+
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  
+}
