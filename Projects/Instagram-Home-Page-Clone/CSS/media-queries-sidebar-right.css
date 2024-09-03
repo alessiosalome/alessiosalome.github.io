@@ -1,0 +1,14 @@
+@media (max-width: 1159px) {
+
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .sidebar-right {
+      display: none;
+    }
+
+  }
+  
+}

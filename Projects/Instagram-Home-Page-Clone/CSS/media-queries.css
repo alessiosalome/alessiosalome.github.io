@@ -1,0 +1,39 @@
+@media (max-width: 619px) {
+
+  html {
+    overflow-x: hidden;
+  }
+  
+}
+
+@media (max-width: 767px) {
+
+  .container {
+    padding-left: 0;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1263px) {
+
+  .container {
+    padding-left: 3.9rem;
+  }
+
+}
+
+@media (min-width: 1264px) and (max-width: 1283px) {
+
+  .container {
+    padding-left: 15.5rem;
+  }
+
+}
+
+@media (min-width: 1284px) and (max-width: 1919px) {
+
+  .container {
+    padding-left: 14rem;
+  }
+
+}

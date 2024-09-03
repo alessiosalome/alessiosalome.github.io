@@ -1,0 +1,100 @@
+:root {
+  --first-bg-color: #000000;
+  --second-bg-color: #262626;
+  --third-bg-color: #3C3C3C;
+  --fourth-bg-color: #1A1A1A;
+  --fifth-bg-color: #363636;
+  --sixth-bg-color: #2A2A2B;
+
+  --primary-color: #F5F5F5;
+  --secondary-color: #A8A8A8;
+  --third-color: #0095F6;
+  --fourth-color: #737373;
+  --fifth-color: #353535;
+  --sixth-color: #3E3E3E;
+  --seventh-color: #ED4956;
+  --eighth-color: #E0F0FF;
+  --ninth-color: #7B7B7B;
+  --tenth-color: #0091F0;
+
+  --first-icon-color: #F5F5F5;
+  --second-icon-color: #8E8E8E;
+  --third-icon-color: #0095F6;
+  --fourth-icon-color: #1977F2;
+  --fifth-icon-color: #ABABAB;
+
+  --gradient-color: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  --border-color: #262626;
+
+  --text-size: 1rem;
+}
+
+@font-face {
+  font-family: 'Instagram Sans Regular';
+  src: url('/Assets/Font/Instagram-Sans.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Instagram Sans Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Instagram Sans Light'), url('/Assets/Font/Instagram-Sans-Light.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Instagram Sans Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/Assets/Font/Instagram-Sans-Medium.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Instagram Sans Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/Assets/Font/Instagram-Sans-Bold.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Instagram Sans Headline Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/Assets/Font/Instagram-Sans-Headline.woff') format('woff');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  
+  color: var(--primary-color);
+  background-color: var(--first-bg-color);
+
+  font-size: var(--text-size);
+  font-family: 'Instagram Sans Regular', sans-serif;
+}
+
+.container {
+  max-width: 1500px;
+  height: 100%;
+  margin: auto;
+  padding: 2.7rem 0 0 20rem;
+
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+
+  color: var(--primary-color);
+}

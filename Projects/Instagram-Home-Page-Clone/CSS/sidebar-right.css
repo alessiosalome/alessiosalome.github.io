@@ -1,0 +1,408 @@
+.sidebar-right {
+  width: 290px;
+  margin-top: 0.6rem;
+  margin-left: 4.5rem;
+
+  .image-username-name-switch-to {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .image-username-name {
+      display: flex;
+      align-items: center;
+      width: 100%;
+
+      .profile-image-container {
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        margin-right: 0.5rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background: var(--gradient-color);
+
+        img {
+          width: 50px;
+          border-radius: 50%;
+          margin: 3px;
+          border: 2px solid var(--first-bg-color);
+
+          &:hover {
+            cursor: pointer;
+          }
+
+        }
+
+      }
+
+      .username-name {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        span {
+          font-size: calc(var(--text-size) - 1px);
+        }
+
+        .username {
+          font-family: 'Instagram Sans Bold', sans-serif;
+        }
+
+        .name {
+          font-family: 'Instagram Sans Light', sans-serif;
+
+          color: var(--secondary-color);
+        }
+
+      }      
+
+    }
+
+    .switch-to {
+      font-family: 'Instagram Sans Bold', sans-serif;
+      font-size: calc(var(--text-size) - 3px);
+
+      color: var(--third-color);
+
+      white-space: nowrap;
+
+      &:hover {
+        cursor: pointer;
+
+        color: var(--eighth-color);
+      }
+
+    }
+
+  }
+
+  .suggested-for-you {
+    margin-top: 1rem;
+    padding-left: 0.3rem;
+
+    .suggested-for-you-text-view-all {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      span {
+        font-family: 'Instagram Sans Bold', sans-serif;
+      }
+
+      .suggested-for-you-text {
+        font-size: calc(var(--text-size) - 1px);
+
+        color: var(--secondary-color);
+      }
+
+      .view-all {
+        font-size: calc(var(--text-size) - 3.5px);
+
+        &:hover {
+          color: var(--ninth-color);
+        }
+
+      }
+
+    }
+
+    .list-of-suggestions {
+      margin-top: 0.8rem;
+
+      .suggestion {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin-bottom: 0.5rem;
+        padding-left: 0.3rem;
+
+        .image-username-follower-suggestion {
+          display: flex;
+          align-items: center;
+
+          .image-suggestion {
+
+            .profile-image-suggestion {
+              width: 45px;
+              border-radius: 50%;
+
+              &:hover {
+                cursor: pointer;
+              }
+
+            }
+
+          }
+
+          .username-follower-suggestion {
+            display: flex;
+            flex-direction: column;
+
+            margin-left: 0.7rem;
+
+            .username-suggestion {
+              font-family: 'Instagram Sans Bold', sans-serif;
+
+              font-size: calc(var(--text-size) - 1px);
+            }
+
+            .follower-suggestion {
+              font-family: 'Instagram Sans Light', sans-serif;
+
+              font-size: calc(var(--text-size) - 3px);
+
+              color: var(--secondary-color);
+            }
+
+          }
+
+          .image-suggestion,
+          .username-suggestion {
+            position: relative;
+
+            .profile-info {
+              position: absolute;
+
+              width: 370px;
+              padding: 1rem 0;
+              border-radius: 5px;
+
+              background-color: var(--first-bg-color);
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.243);
+
+              opacity: 0;
+              pointer-events: none;
+              z-index: 1;
+
+              .image-username-name-profile-info {
+                display: flex;
+                align-items: center;
+
+                margin-left: 0.7rem;
+
+                .profile-image-info {                   
+
+                  a {
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    margin-right: 0.5rem;
+
+                    background: var(--gradient-color);
+
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+
+                    .profile-image {
+                      width: 55px;
+                      border-radius: 50%;
+
+                      &:hover {
+                        cursor: pointer;
+                      }
+
+                    }
+
+                  }
+
+                }
+
+                .username-name-profile-info {
+                  display: flex;
+                  flex-direction: column;
+
+                  .username-profile-info {
+                    font-family: 'Instagram Sans Bold', sans-serif;
+                    font-size: calc(var(--text-size) + 1px);
+                  }
+
+                  .name-profile-info {
+                    font-family: 'Instagram Sans Light', sans-serif;
+                    font-size: calc(var(--text-size) - 1px);
+
+                    color: var(--secondary-color);
+                  }
+
+                }                  
+
+              }
+
+              .post-follower-followed-profile-info {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                padding: 0 2.5rem;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+
+                .post-profile-info,
+                .follower-profile-info,
+                .followed-profile-info {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+
+                  .number {
+                    font-family: 'Instagram Sans Bold', sans-serif;
+                    font-size: calc(var(--text-size) - 1px);
+                  }
+
+                  .text {
+                    font-family: 'Instagram Sans', sans-serif;
+                    font-size: calc(var(--text-size) - 1px);
+                    margin-top: -2px;
+                  }
+
+                }
+
+              }
+
+              .image-post-profile-info {
+
+                a {
+
+                  img {
+                    width: 121px;
+                    height: 121px;
+                    object-fit: cover;
+                    object-position: center;
+                  }
+
+                }
+
+              }
+
+              .buttons {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                margin-top: 0.6rem;
+
+                button {
+                  border: none;
+                  border-radius: 8px;
+
+                  color: var(--primary-color);
+                  font-family: 'Instagram Sans Bold', sans-serif;
+
+                  &:hover {
+                    cursor: pointer;
+                  }
+
+                }
+
+                .message-button {
+                  display: flex;
+                  align-items: center;
+
+                  background-color: var(--third-icon-color);
+
+                  padding: 0.4rem 2.6rem;
+                  margin-right: 0.5rem;
+
+                  svg {
+                    width: 20px;
+                    margin-right: 0.5rem;
+                  }
+
+                  font-size: calc(var(--text-size) - 1px);
+
+                  &:hover {
+                    background-color: var(--fourth-icon-color);
+                  }
+
+                }
+
+                .already-following-button {
+                  color: var(--primary-color);
+                  background-color: var(--fifth-bg-color);
+
+                  padding: 0.4rem 2.7rem;
+
+                  font-size: calc(var(--text-size) - 1px);
+
+                  white-space: nowrap;
+
+                  &:hover {
+                    background-color: var(--second-bg-color);
+                  }
+                }
+
+              }
+
+            }
+
+            &:hover {
+
+              .profile-info {
+                opacity: 1;
+              }
+
+            }
+
+          }
+
+        }
+        
+        .follow {
+          font-family: 'Instagram Sans Bold', sans-serif;
+          font-size: calc(var(--text-size) - 3px);
+
+          color: var(--third-color);
+
+          white-space: nowrap;
+
+          &:hover {
+            cursor: pointer;
+
+            color: var(--eighth-color);
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+  .site-info {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 2rem;
+    padding-left: 0.3rem;
+
+    span,
+    a {
+      color: var(--fourth-color);
+
+      font-size: calc(var(--text-size) - 3.5px);
+
+    }
+
+    span {
+      margin-bottom: 0.2rem;
+
+      &:last-of-type {
+        margin-bottom: 0;
+        margin-top: 1.2rem;
+      }
+
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+  }
+
+}

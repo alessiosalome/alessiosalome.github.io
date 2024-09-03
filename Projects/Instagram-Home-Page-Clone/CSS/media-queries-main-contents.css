@@ -1,0 +1,295 @@
+@media (max-width: 394px) {
+
+  .container {
+
+    main {
+
+      .stories-preview {
+
+        .story {
+          
+          &:nth-of-type(5) {
+            display: none;
+          }
+
+          &:nth-of-type(4) {
+            margin-right: 0;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+  
+}
+
+@media (max-width: 430px) {
+
+  .second-header {
+    display: none;
+  }
+
+  .container {
+    margin: 1.1rem 0 0 0;
+    padding-top: 0;
+
+    main {
+
+      .stories-preview {
+        padding: 0 0 0.35rem 0;
+        margin: 0;
+
+        border-bottom: 1px solid rgba(211, 211, 211, 0.27);
+
+        .story {
+          
+          &:nth-of-type(6) {
+            display: none;
+          }
+
+          &:nth-of-type(5) {
+            margin-right: 0;
+          }
+
+        }
+
+      }
+
+      .posts {
+        margin-top: 0.4rem;
+
+        .post {
+          width: 100%;
+          margin-bottom: 0;
+
+          border-bottom: none;
+
+          .top {
+            margin-left: 0.5rem;
+            margin-right: 0.6rem;
+
+            .image-username-date {
+
+              .profile-image-container,
+              .username {
+
+                .profile-info {
+                  display: none;
+                }
+
+              }
+
+              .middle-dot,
+              .date {
+                display: none;
+              }
+
+            }
+
+            .post-options {
+
+              .other-options {
+                display: none;
+              }
+
+              .options {
+                width: 325px;
+              }
+
+            }
+
+          }
+
+          .middle {
+            
+            img {
+              border-radius: 0;
+              border: none;
+            }
+
+          }
+
+          .bottom {
+            margin-left: 1rem;
+            margin-right: 1rem;
+
+            .like-description-comments {
+              margin-top: 0.7rem;
+
+              .like {
+                display: none;
+              }
+
+              .description {
+
+                .profile-name-description {
+
+                  .profile-info {
+                    display: none;
+                  }
+
+                }
+
+              }
+
+              .comments {
+                display: flex;
+                flex-direction: column;
+
+                .add-a-comment {
+                  display: none;
+                }
+
+                span:last-of-type {
+                  font-size: calc(var(--text-size) - 2.5px);
+                }
+
+              }
+
+            }
+          }
+
+        }
+
+      }      
+
+    }
+
+  }
+
+}
+
+@media (min-width: 431px) {
+
+  .third-header {
+    display: none;
+  }
+
+  .container {
+
+    main {
+
+      .posts {
+
+        .post {
+
+          .bottom {
+
+            .like-description-comments {
+
+              .comments {
+
+                span:last-of-type {
+                  display: none;
+                }
+
+              }
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+  .use-the-app {
+    display: none;
+  }
+
+}
+
+@media (max-width: 579px) {
+
+  .container {
+
+    main {
+
+      .stories-preview {
+
+        .story {
+
+          &:nth-last-of-type(2) {
+            display: none;
+          }
+
+          &:nth-last-of-type(3) {
+            margin-right: 0;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media (max-width: 659px) {
+
+  .container {
+
+    main {
+
+      .stories-preview {
+
+        .story {
+          
+          &:last-of-type {
+            display: none;
+          }
+
+          &:nth-of-type(7) {
+            margin-right: 0;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  .container {
+
+    main {
+
+      header {
+
+        .first-header {
+          display: none;
+        }
+
+      }
+
+      .stories-preview {
+        margin-top: 2.3rem;
+      }
+
+    }
+
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .second-header {
+    display: none;
+  }
+
+}
