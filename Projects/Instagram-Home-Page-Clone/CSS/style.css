@@ -31,7 +31,7 @@
 
 @font-face {
   font-family: 'Instagram Sans Regular';
-  src: url('/Assets/Font/Instagram-Sans.woff') format('woff');
+  src: url('/Projects/Instagram-Home-Page-Clone/Assets/Font/Instagram-Sans.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -40,7 +40,7 @@
   font-family: 'Instagram Sans Light';
   font-style: normal;
   font-weight: normal;
-  src: local('Instagram Sans Light'), url('/Assets/Font/Instagram-Sans-Light.woff') format('woff');
+  src: local('Instagram Sans Light'), url('/Projects/Instagram-Home-Page-Clone/Assets/Font/Instagram-Sans-Light.woff') format('woff');
 }
 
 
@@ -48,7 +48,7 @@
   font-family: 'Instagram Sans Medium';
   font-style: normal;
   font-weight: normal;
-  src: url('/Assets/Font/Instagram-Sans-Medium.woff') format('woff');
+  src: url('/Projects/Instagram-Home-Page-Clone/Assets/Font/Instagram-Sans-Medium.woff') format('woff');
 }
 
 
@@ -56,7 +56,7 @@
   font-family: 'Instagram Sans Bold';
   font-style: normal;
   font-weight: normal;
-  src: url('/Assets/Font/Instagram-Sans-Bold.woff') format('woff');
+  src: url('/Projects/Instagram-Home-Page-Clone/Assets/Font/Instagram-Sans-Bold.woff') format('woff');
 }
 
 
@@ -64,7 +64,7 @@
   font-family: 'Instagram Sans Headline Regular';
   font-style: normal;
   font-weight: normal;
-  src: url('/Assets/Font/Instagram-Sans-Headline.woff') format('woff');
+  src: url('/Projects/Instagram-Home-Page-Clone/Assets/Font/Instagram-Sans-Headline.woff') format('woff');
 }
 
 * {
